@@ -152,7 +152,7 @@ export default function HomePage() {
                         required
                         value={queryValue}
                         onChange={(e) => setQueryValue(e.target.value)}
-                        placeholder="e.g. ECB/2025/05/04 or 9587572270 or UTR"
+                        placeholder="Enter Scholar No., Mobile No., or Transaction ID"
                         className="w-full bg-black/40 border border-amber-500/30 rounded-xl px-4 py-3.5 pl-11 focus:outline-none focus:ring-2 focus:ring-amber-500/50 focus:border-amber-400 transition-all placeholder:text-slate-500 text-white font-medium"
                       />
                       <Search className="w-4 h-4 text-amber-400 absolute left-4 top-1/2 -translate-y-1/2" />
@@ -169,7 +169,7 @@ export default function HomePage() {
                       type="text"
                       value={nameValue}
                       onChange={(e) => setNameValue(e.target.value)}
-                      placeholder="e.g. Yashika"
+                      placeholder="Enter your registered name"
                       className="w-full bg-black/40 border border-white/10 rounded-xl px-4 py-3.5 focus:outline-none focus:ring-2 focus:ring-amber-500/50 focus:border-amber-400 transition-all placeholder:text-slate-600 text-white font-medium"
                     />
                   </div>
