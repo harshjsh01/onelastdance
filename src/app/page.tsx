@@ -157,43 +157,6 @@ export default function HomePage() {
                       />
                       <Search className="w-4 h-4 text-amber-400 absolute left-4 top-1/2 -translate-y-1/2" />
                     </div>
-
-                    {/* Quick Demo Testing Pills */}
-                    <div className="flex flex-wrap items-center gap-1.5 pt-1.5 text-[11px]">
-                      <span className="text-[10px] text-slate-400 font-bold uppercase tracking-wider">
-                        ⚡ Quick Test:
-                      </span>
-                      <button
-                        type="button"
-                        onClick={() => {
-                          setQueryValue('9999999999');
-                          setNameValue('Piyush');
-                        }}
-                        className="px-2.5 py-1 rounded-lg bg-amber-500/15 hover:bg-amber-500/25 text-amber-300 font-mono text-[10px] font-bold border border-amber-500/30 transition-all active:scale-95"
-                      >
-                        9999999999 (Piyush)
-                      </button>
-                      <button
-                        type="button"
-                        onClick={() => {
-                          setQueryValue('ECB/TEST/002');
-                          setNameValue('Harsh');
-                        }}
-                        className="px-2.5 py-1 rounded-lg bg-pink-500/15 hover:bg-pink-500/25 text-pink-300 font-mono text-[10px] font-bold border border-pink-500/30 transition-all active:scale-95"
-                      >
-                        ECB/TEST/002 (Harsh)
-                      </button>
-                      <button
-                        type="button"
-                        onClick={() => {
-                          setQueryValue('TEST12345678');
-                          setNameValue('');
-                        }}
-                        className="px-2.5 py-1 rounded-lg bg-purple-500/15 hover:bg-purple-500/25 text-purple-300 font-mono text-[10px] font-bold border border-purple-500/30 transition-all active:scale-95"
-                      >
-                        TEST12345678 (Txn)
-                      </button>
-                    </div>
                   </div>
 
                   <div className="space-y-1.5">
