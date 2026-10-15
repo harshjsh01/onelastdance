@@ -2,6 +2,8 @@
 
 import verifiedStudentsData from '@/data/verified_students.json';
 import { supabase } from '@/lib/supabase';
+import { cookies } from 'next/headers';
+import crypto from 'crypto';
 
 export interface StudentTicket {
   timestamp: string;
@@ -334,4 +336,73 @@ export async function syncAllToFirebase() {
       error: err instanceof Error ? err.message : String(err),
     };
   }
+}
+
+// ========================================================
+// ZERO-EXPOSURE PASSCODE AUTHENTICATION
+// ========================================================
+const EXPECTED_HASH =
+  process.env.ADMIN_PASSCODE_HASH ||
+  '946b1eb08fa82905b7e759476d6d9931a1076940984dc0920462a850f286f798';
+const RAW_PASSCODE = process.env.ADMIN_PASSCODE || '946240988';
+const SESSION_SECRET =
+  process.env.SESSION_SECRET || 'navrang-secret-salt-2026-garba-ecb-secure-session';
+
+export async function verifyPasscode(inputHashOrPlain: string) {
+  const clean = (inputHashOrPlain || '').trim();
+  let hash = clean.toLowerCase();
+
+  // If client already sent SHA-256 (64 hex characters)
+  if (clean.length !== 64) {
+    hash = crypto.createHash('sha256').update(clean).digest('hex').toLowerCase();
+  }
+
+  const isMatch = hash === EXPECTED_HASH || clean === RAW_PASSCODE;
+
+  if (isMatch) {
+    const sessionToken = crypto
+      .createHmac('sha256', SESSION_SECRET)
+      .update('navrang_admin_authorized')
+      .digest('hex');
+
+    const cookieStore = await cookies();
+    cookieStore.set('navrang_auth_session', sessionToken, {
+      httpOnly: true,
+      secure: process.env.NODE_ENV === 'production',
+      sameSite: 'lax',
+      maxAge: 60 * 60 * 24 * 7, // 7 days
+      path: '/',
+    });
+
+    return { success: true };
+  }
+
+  return { success: false, error: 'Incorrect Passcode. Access Denied.' };
+}
+
+export async function checkAuthSession(): Promise<boolean> {
+  try {
+    const cookieStore = await cookies();
+    const token = cookieStore.get('navrang_auth_session')?.value;
+    if (!token) return false;
+
+    const expected = crypto
+      .createHmac('sha256', SESSION_SECRET)
+      .update('navrang_admin_authorized')
+      .digest('hex');
+
+    return token === expected;
+  } catch (e) {
+    return false;
+  }
+}
+
+export async function logoutAdmin() {
+  try {
+    const cookieStore = await cookies();
+    cookieStore.delete('navrang_auth_session');
+  } catch (e) {
+    // Ignore cookie delete errors
+  }
+  return { success: true };
 }

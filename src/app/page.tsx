@@ -86,23 +86,11 @@ export default function HomePage() {
           </div>
         </div>
 
-        <div className="flex items-center gap-2 sm:gap-3">
-          <Link
-            href="/scan"
-            className="px-3 py-1.5 sm:px-4 sm:py-2 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-xs font-bold text-slate-300 hover:text-white flex items-center gap-2 transition-all active:scale-95"
-          >
-            <QrCode className="w-3.5 h-3.5 text-amber-400" />
-            <span className="hidden sm:inline">Gate Scanner</span>
-            <span className="sm:hidden">Scan</span>
-          </Link>
-
-          <Link
-            href="/admin"
-            className="px-3 py-1.5 sm:px-4 sm:py-2 rounded-xl bg-amber-500/10 hover:bg-amber-500/20 border border-amber-500/30 text-xs font-bold text-amber-300 flex items-center gap-2 transition-all active:scale-95"
-          >
-            <Users className="w-3.5 h-3.5" />
-            <span className="hidden sm:inline">Admin</span>
-          </Link>
+        <div className="flex items-center gap-2">
+          <span className="px-3 py-1.5 rounded-xl bg-amber-500/10 border border-amber-500/25 text-[11px] font-bold text-amber-300/90 flex items-center gap-1.5 shadow-sm">
+            <Sparkles className="w-3 h-3 text-amber-400" />
+            <span>Official Pass Portal</span>
+          </span>
         </div>
       </header>
 
