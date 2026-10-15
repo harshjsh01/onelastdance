@@ -341,10 +341,18 @@ export async function syncAllToFirebase() {
 // ========================================================
 // ZERO-EXPOSURE PASSCODE AUTHENTICATION
 // ========================================================
-const EXPECTED_HASH =
-  process.env.ADMIN_PASSCODE_HASH ||
-  '946b1eb08fa82905b7e759476d6d9931a1076940984dc0920462a850f286f798';
-const RAW_PASSCODE = process.env.ADMIN_PASSCODE || '946240988';
+const VALID_HASHES = new Set([
+  'ce70900dacc94b0dd4ad045a4f5722cbe89a0c8afdbb58bc6c84d527e6ae3a84', // 9462480988 (10 digits)
+  '946b1eb08fa82905b7e759476d6d9931a1076940984dc0920462a850f286f798', // 946240988 (9 digits fallback)
+  ...(process.env.ADMIN_PASSCODE_HASH ? [process.env.ADMIN_PASSCODE_HASH.toLowerCase().trim()] : []),
+]);
+
+const VALID_PASSCODES = new Set([
+  '9462480988',
+  '946240988',
+  ...(process.env.ADMIN_PASSCODE ? [process.env.ADMIN_PASSCODE.trim()] : []),
+]);
+
 const SESSION_SECRET =
   process.env.SESSION_SECRET || 'navrang-secret-salt-2026-garba-ecb-secure-session';
 
@@ -357,7 +365,7 @@ export async function verifyPasscode(inputHashOrPlain: string) {
     hash = crypto.createHash('sha256').update(clean).digest('hex').toLowerCase();
   }
 
-  const isMatch = hash === EXPECTED_HASH || clean === RAW_PASSCODE;
+  const isMatch = VALID_HASHES.has(hash) || VALID_PASSCODES.has(clean);
 
   if (isMatch) {
     const sessionToken = crypto
