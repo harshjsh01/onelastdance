@@ -16,15 +16,14 @@ This folder contains the payment reconciliation data for **Navrang 2026 (Dandiya
    - Master list combining all 349 student registrations with complete audit trail and verification status.
 
 ## Reconciliation Summary
-- **Total Student Registrations**: 349
-- **Successfully Verified**: 329
-- **Unverified / Fake / Duplicate**: 20
+- **Total Student Registrations**: 398
+- **Successfully Verified**: 359 (Tickets `NRG-1001` to `NRG-1359`)
+- **Unverified / Fake / Duplicate**: 39
 
 ## Bank Statements Processed
+- **PhonePe (7877559575)**: Updated Evening Statement (15 Sept 2026 - 15 Oct 2026 5:42 PM)
+- **PhonePe (9057930155)**: Oct 15 Statement (My Document)
+- **Navi UPI - Destiny Sharma (8112299241)**: Updated Evening Statement (15 Sept 2026 - 15 Oct 2026 6:36 PM)
 - **PhonePe - Pulkit (9351061046)**: 15 Sept 2026 - 15 Oct 2026
 - **State Bank of India - Harsh Joshi (42225178872)**: 01 Oct 2026 - 15 Oct 2026
-- **PhonePe (9462480988)**: 15 Sept 2026 - 15 Oct 2026
-- **PhonePe (7877559575)**: 15 Sept 2026 - 15 Oct 2026
-- **State Bank of India (9461637281)**: 14 Oct 2026
-- **PhonePe (8279293128)**: 15 Sept 2026 - 15 Oct 2026
-- **Navi UPI - Destiny Sharma (8112299241)**: 15 Sept 2026 - 15 Oct 2026
+- **PhonePe (9462480988)**: 15 Sept 2026 - 15 Oct 2026 CSV

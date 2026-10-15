@@ -34,5 +34,6 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# bank statement text dumps
-/Navrang/statements/*_text.txt
+# bank statement files
+/Navrang/statements/
+*.pdf
