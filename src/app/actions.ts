@@ -120,7 +120,7 @@ export async function getTicketDetails(ticketId: string) {
   };
 }
 
-// Gate QR Code Verification
+// Gate QR Code Verification (Strict Single-Use Only)
 export async function verifyTicketGate(ticketId: string) {
   const verifiedList = verifiedStudentsData as StudentTicket[];
   const cleanId = ticketId.trim().toUpperCase();
@@ -134,16 +134,49 @@ export async function verifyTicketGate(ticketId: string) {
     };
   }
 
+  // 1. Check in-memory store
   const existing = checkInStore.get(student.ticket_id);
-
   if (existing && existing.status === 'checked_in') {
     return {
       status: 'duplicate' as const,
-      message: `Already Checked-In at ${existing.checked_in_at}`,
+      message: `Already Checked-In at ${existing.checked_in_at}. This pass is valid for one-time entry only.`,
       name: student.name,
       scholarNo: student.scholar_no,
       branch: student.branch,
+      ticketId: student.ticket_id,
+      time: existing.checked_in_at,
     };
+  }
+
+  // 2. Check Supabase table if configured
+  if (process.env.NEXT_PUBLIC_SUPABASE_URL && process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY) {
+    try {
+      const { data: supaData } = await supabase
+        .from('navrang_checkins')
+        .select('*')
+        .eq('ticket_id', student.ticket_id)
+        .maybeSingle();
+
+      if (supaData && supaData.status === 'checked_in') {
+        const checkedTime = supaData.checked_in_at || 'Earlier today';
+        checkInStore.set(student.ticket_id, {
+          status: 'checked_in',
+          checked_in_at: checkedTime,
+        });
+
+        return {
+          status: 'duplicate' as const,
+          message: `Already Checked-In at ${checkedTime}. This pass is valid for one-time entry only.`,
+          name: student.name,
+          scholarNo: student.scholar_no,
+          branch: student.branch,
+          ticketId: student.ticket_id,
+          time: checkedTime,
+        };
+      }
+    } catch (e) {
+      // Supabase table check optional fallback
+    }
   }
 
   const now = new Date().toLocaleTimeString('en-IN', {
@@ -153,10 +186,27 @@ export async function verifyTicketGate(ticketId: string) {
     hour12: true,
   });
 
+  // Save to in-memory store
   checkInStore.set(student.ticket_id, {
     status: 'checked_in',
     checked_in_at: now,
   });
+
+  // Sync to Supabase if configured
+  if (process.env.NEXT_PUBLIC_SUPABASE_URL && process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY) {
+    try {
+      await supabase.from('navrang_checkins').upsert({
+        ticket_id: student.ticket_id,
+        name: student.name,
+        scholar_no: student.scholar_no,
+        branch: student.branch,
+        status: 'checked_in',
+        checked_in_at: now,
+      });
+    } catch (e) {
+      // Silently fall back to in-memory
+    }
+  }
 
   return {
     status: 'success' as const,
