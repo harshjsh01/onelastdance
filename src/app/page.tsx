@@ -27,6 +27,8 @@ export default function HomePage() {
   const [error, setError] = useState<string | null>(null);
   const [student, setStudent] = useState<StudentTicket | null>(null);
   const [showRules, setShowRules] = useState(false);
+  const [queryValue, setQueryValue] = useState('');
+  const [nameValue, setNameValue] = useState('');
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -49,6 +51,8 @@ export default function HomePage() {
   const handleReset = () => {
     setStudent(null);
     setError(null);
+    setQueryValue('');
+    setNameValue('');
   };
 
   return (
@@ -146,10 +150,49 @@ export default function HomePage() {
                         name="query"
                         type="text"
                         required
+                        value={queryValue}
+                        onChange={(e) => setQueryValue(e.target.value)}
                         placeholder="e.g. ECB/2025/05/04 or 9587572270 or UTR"
                         className="w-full bg-black/40 border border-amber-500/30 rounded-xl px-4 py-3.5 pl-11 focus:outline-none focus:ring-2 focus:ring-amber-500/50 focus:border-amber-400 transition-all placeholder:text-slate-500 text-white font-medium"
                       />
                       <Search className="w-4 h-4 text-amber-400 absolute left-4 top-1/2 -translate-y-1/2" />
+                    </div>
+
+                    {/* Quick Demo Testing Pills */}
+                    <div className="flex flex-wrap items-center gap-1.5 pt-1.5 text-[11px]">
+                      <span className="text-[10px] text-slate-400 font-bold uppercase tracking-wider">
+                        ⚡ Quick Test:
+                      </span>
+                      <button
+                        type="button"
+                        onClick={() => {
+                          setQueryValue('9999999999');
+                          setNameValue('Piyush');
+                        }}
+                        className="px-2.5 py-1 rounded-lg bg-amber-500/15 hover:bg-amber-500/25 text-amber-300 font-mono text-[10px] font-bold border border-amber-500/30 transition-all active:scale-95"
+                      >
+                        9999999999 (Piyush)
+                      </button>
+                      <button
+                        type="button"
+                        onClick={() => {
+                          setQueryValue('ECB/TEST/002');
+                          setNameValue('Harsh');
+                        }}
+                        className="px-2.5 py-1 rounded-lg bg-pink-500/15 hover:bg-pink-500/25 text-pink-300 font-mono text-[10px] font-bold border border-pink-500/30 transition-all active:scale-95"
+                      >
+                        ECB/TEST/002 (Harsh)
+                      </button>
+                      <button
+                        type="button"
+                        onClick={() => {
+                          setQueryValue('TEST12345678');
+                          setNameValue('');
+                        }}
+                        className="px-2.5 py-1 rounded-lg bg-purple-500/15 hover:bg-purple-500/25 text-purple-300 font-mono text-[10px] font-bold border border-purple-500/30 transition-all active:scale-95"
+                      >
+                        TEST12345678 (Txn)
+                      </button>
                     </div>
                   </div>
 
@@ -161,6 +204,8 @@ export default function HomePage() {
                     <input
                       name="name"
                       type="text"
+                      value={nameValue}
+                      onChange={(e) => setNameValue(e.target.value)}
                       placeholder="e.g. Yashika"
                       className="w-full bg-black/40 border border-white/10 rounded-xl px-4 py-3.5 focus:outline-none focus:ring-2 focus:ring-amber-500/50 focus:border-amber-400 transition-all placeholder:text-slate-600 text-white font-medium"
                     />
