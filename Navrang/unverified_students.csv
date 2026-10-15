@@ -1,172 +1,112 @@
-timestamp,name,scholar_no,branch,year_sem,contact_no,email,submitted_transaction_id,verification_status,reason
-12/10/2026 22:10:55,Sitaram nayak,4,CSE -2,1st,9157211084,sitaram20127@gmail.com,9157211084,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-13/10/2026 11:35:29,Naman Acharya,,Cse,1st year,9784343772,namanaacharya85@gmail.com,6652229716501,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-13/10/2026 12:05:05,Nirma,ecb/2026/03/33,Electrical engineering,1,9928297998,cnirmachoudhary01@gmail.com,3167,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-13/10/2026 15:01:21,Priyanshu,ECB/2026/07/58,Civil,1,9660707993,priyanshukumawat993@gmail.com,T2610131459351345838412,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-13/10/2026 15:03:32,Vivek Kumar,ECB/2026/03/56,Electrical,1,9217826988,meena.vivek030707@gmail.com,T2610131501329638491313,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-13/10/2026 15:08:23,Pooja,,Civil,1,8769981133,poojaachoudharyy0111@gmail.com,T2610131504160291243746,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-13/10/2026 15:09:57,Tanmay Mendiratta,Ecb/2025/03/38,ECE,2 nd /3rd,9983230977,tanmay.mendiratta07@gmail.com,T2610131508193114494262,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-13/10/2026 16:01:08,Payal,ECB/2025/D/07/46,Civil,3rd (5th),9352529873,payalgothwal74@gmail.com,T2610131549174163667757,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-13/10/2026 16:17:47,Shiv,ECB/2025/01/98,Cse,2nd year/3rd sem,7340588163,shekhawatshivu007@gmail.com,T2610131606257802999683,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-13/10/2026 16:34:54,Tirath Jakhar,,BCA,3 year / 5 sem,8094546835,tirathjakhar@gmail.com,T2610131631386322601839,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-13/10/2026 16:37:55,Deepti nehra,ECB/2026/02/5,ECE,1st,7878196566,deeptichoudhary973@gmail.com,7878196566@ybl,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-13/10/2026 16:48:45,Kavish Rajpurohit,24/ECB/BCA/29,BCA,5 semester,7297036095,kavishrajpurohit11@gmail.com,CICIAgPjWiKXlbQ,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-13/10/2026 16:54:41,Gitika yadav,ECB/2025/1/30,CSE,Third semester,8000129696,gitikayadav000@gmail.com,T2610131647561721363725,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-13/10/2026 16:57:52,Gitika yadav,ECB/2025/1/30,CSE,Third semester,8000129696,gitikayadav000@gmail.com,T2610131647561721363725,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-13/10/2026 17:13:54,Tarun Pratap,,CSE,2,7878263993,tarunpratap818@gmail.com,OMK27c9b98f990e24b,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-13/10/2026 17:17:44,Yogesh prajapat,ECB/2025/1/124,Complete science and engineering,3rd semester,9784688578,yogesh15auge@gmail.com,T2610131715080093005973,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-13/10/2026 17:57:01,Mohit Jangir,ECB/2025/07/27,Civil engineering,2nd year 3rd semester,7414042339,mohitjangir9909@gmail.com,T2610131753239463319393,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-13/10/2026 18:29:56,Himanshu Goswami,ECB/2026/10/34,AI&DS,2026/1st,9116851052,himeshg7583@gmail.com,T2610131825257131971895,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-13/10/2026 18:30:29,Lokesh Sharma,25EEBCS047,CSE,2nd year/ 3rd sem,9256843345,lokeshsh603@gmail.com,T2610131828573900273079,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-13/10/2026 18:32:11,Anushka pareek,ECB/2026/02/03,Ece,1st,8955620130,anushka.pareek2009@gmail.com,T2610131827141765128523,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-13/10/2026 18:34:16,Naveen Beniwal,25EEBCS066,CSE,2nd yr/3rd sem,9256170929,naveenbeniwal0929@gmail.com,T2610131833020690391885,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-13/10/2026 18:35:51,Nirmal sharma,,CSE,2nd year/3rd sem,7023278101,nirmalraj47790@gmail.com,T2610131829195921508399,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-13/10/2026 18:49:27,Ajay saini,D2,ECE,1st year,7568525128,govindsingh314228@gmail.com,Ajay saini,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-13/10/2026 19:23:35,Bhawna Saini,ECB/2025/D/07/44,Civil,3rd year,9057489915,bhawnasaini9915@gmail.com,9057489915@pthdfc,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-13/10/2026 19:26:41,Amit Kumar saini,,CSE,1st,8764777930,amitsaini777930@gmail.com,T2610131922552825763834,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-13/10/2026 19:47:17,Preeti,ECB/2026/10/69,AIDS,1st,9116463606,preeti06jjn@gmail.com,T2610131944361716280688,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-13/10/2026 19:51:46,Dikshant panwar,ECB/2025/07/7,Civil,2nd year 3rd sem,7073892114,Panwardikshant124@gmail.com,T2610131949531644483414,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-13/10/2026 20:11:35,Tushar ranwa,ECB/2025/1/109,Cse,2 / 3,9654726391,tusharranwa130@gmail.com,T2610132008165513667975,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-13/10/2026 20:17:27,yuvraj singh sisodia,ECB/2026/02/48,electronics and communication,1,7737054743,yuvrajsinghsisodia2007@gmail.com,T2610132001496050601239,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-13/10/2026 20:19:21,Karan kumawat,ECB/2025/05/8,Mechanical,2/3,9983709252,Karan.kumawat9983@gamil.com,T2610132018048206553047,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-13/10/2026 20:23:25,Sagar parihar,ECB/2025/10/76,Aids,2/3,8764944497,prajapatsagar551@gmail.com,T2610132021305521059722,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-13/10/2026 20:27:50,Yash nimbawat,ECB/2025/07/53,Civil,2/3,9672408575,Yashnimbawat5@gmail.com,T2610132026211849571910,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-13/10/2026 21:00:13,Kartikeya Bhadu,ECB/2025/01/50,Computer Science,2025/3rd sem,7828894135,kartikeyabhadu@gmail.com,T2610132058406525149933,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-13/10/2026 21:18:53,Prachi Sharma,ECB /2025 /02/27,CSE,"2nd-year, 3rd sem",6378555082,nikujoshi651@gmail.com,T2610132114566107044019,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-13/10/2026 21:34:17,Madhya Rani,,Electrical,1 semester,7665012888,madhyarani@gmail.com,T2610132126189725218355,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-13/10/2026 21:38:39,Laxita,,Civil,1st,9588093018,laxitayadav74@gmail.com,T2610132127289236894800,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-13/10/2026 22:43:40,Aryan sharma,ECB/2026/03/9,Electrical engineering,1st / 1st,8000081372,Aryansharmasriganganagar@gmail.com,01a13634-cd12-75ee-aedc-b15f27b70d38,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 01:10:52,Surya Pratap Singh,ECB/2025/03/28,Electrical,3rd,8949024433,ssuryapratapsingh21@gmail.com,MOB27c9e34ad96960d,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 05:23:45,Tanu Rajpurohit,24EEBCS075,CSE,3rd year,7976083108,Tanu334001@gmail.com,7976083108@ptyes,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 10:21:33,Nirbhay Pratap Singh,,Ai & ds,B tech first year,9549269291,nirbhaypratap621@gmail.com,nirbhay0089@fam,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 11:01:08,Abhijeet Choudhary,,Civil,1st,9461901822,abhijeetc2009@gmail.com,T2610141057130096238897,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 11:15:26,Abhinav Soni,ECB/BCA/01,BCA,Sem 1,8824149689,abhsoni151@gmail.com,OMK27ca164b1d468aa,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 11:21:51,chandan sharma,ECB/2025/1/21,cse,2nd year,9257768554,cs6818877@gmail.com,T2610141120384159004981,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 11:45:28,Harshvardhan,ECB/2025/03/9,Electrical,2nd year 3rd semester,9024864431,Harshvardhanparihar95@gmail.com,01a13583-23dc-7c1d-b803-35d376a5e7e2,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 11:56:54,Vishesh,ECB/2026/07/82,Civil Engineering,1st semester,8302157768,vishbp222@gmail.com,01a13909-5c59-75f2-884a-d4d8aec8aeab,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 12:02:41,Bhanvi Gupta,25/ECB/BCA/07,BCA,3rd,9509198587,bhanvigupta07@gmail.com,bhanvigupta07@okicici,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 12:07:57,Divesh jangid,ECB/2026/02/7,ECE,1st/1st,8169008787,divesh6969@gmail.com,0149fe92-b87a-4fe7-94b6-f2dd0518b34a,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 12:17:37,Tanushree soni,2025/ECB/MCA17,MCA,3sem,8209092209,tanushreesoni001@gmail.com,T2610141214401601826928,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 12:25:54,Ashish Choudhary,ECB/2026/07/12,Civil,1st,8003410957,ashishchoudhary8624@gmail.com,T2610141223420080900375,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 12:39:28,Asha sethia,2025/ECB/MCA611,Mca,3rd sem,8619734950,aasthajain122005@gmail.com,T2610141219033467697371,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 13:02:28,Bablu Dhaka,ECB/2026/03/10,Electrical,1st,9351652946,babludhaka2009@gmail.com,01a13952-ec31-71fc-8503-17a800318517,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 13:06:46,Anisha,,It,1st,8306414827,anisharuhela0922@gmail.com,665340920565,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 13:32:11,Deepak swami,ECB/2025/01/22,Cse,2nd year,9166423484,deepakrnkwt3484@gmail.com,01a13965-690a-7af5-9474-d2864c6944ae,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 14:38:46,Prinkit Gahlot,ECB/2025/02/29,ECE,2nd,8502992177,prinkitgahlot@gmail.com,T2610141435239217517391,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 14:43:29,Manan Mahatma,ECB/2025/02/20,ECE,2nd,9269906934,mananmahatma@gmail.com,T2610141441048108730702,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 14:49:08,Deepak,ECB/2026/4/6,IT,1st year,9828712135,deepakjast445@gmail.com,01a139b2-e807-7ec2-8bb2-d4445a4e8bd1,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 15:03:18,Nikhil sankhla,26/ECB/BCA/43,BCA,1st year/1st sem,7849992163,nikhilsankhla311@gmail.com,NEF7e3d1605793b4182955ed561b7bab8f9,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 15:14:02,sourav Dungarjaal,ECB/2026/07/75,Civil engineering,1 years,8949509790,souravdugarjaal900@gmail.com,T2610141508239796730932,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 15:23:07,Ronik Agarwal,ECB/2026/01/95,C.S.E,1st / 1st,8290999890,ronik.ag29@gmail.com,665342119405,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 15:41:45,krishan,ECB/2025/03/11,electrical,3rd,8302126934,krishan209e@gmail.com,005862215915,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 16:17:38,Aman Bhati,,Cse,1st year,8955675571,Aman7bhati@gmail.com,OMK27ca327696361ee,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 16:22:54,Khushi swami,,Computer science,"3rd year, 5th sem",9929996849,khushiswami005@gmail.com,628763251116,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 16:23:36,Shiv kumawat,,ECE,3rd year,9257676061,shivkumawat8209@gmail.com,616029987377,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 17:05:12,Ajay Singh Shekhawat,ECB/2024/01/06,CSE,3 year/ 5 semester,7877283490,shekhawatajaysingh675@gmail.com,628701151900,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 17:14:39,Kanishka Atal,,Computer science,3 year/5th,7339904507,kanishkaatal2006@gmail.com,118443634741,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 17:15:45,Kirti Kanwar rathore,25/ECB/BCA/19,Bca,semester,6375881224,Gunudirathore@gmail.com,bhanvigupta07@okicici,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 17:20:47,Sagar bishnoi,ECB/2026/02/34,ECE,1st year,9053780820,sagarbis9e@gmail.com,MOB27ca37b42ce0fba,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 17:22:57,Pragya,25/ECB/BCA/30,BCA,3rd semester,6388563930,pragyamaurya235@gmail.com,maurya-pragya@ptyes,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 17:26:34,Deepak Sharma,24EEBEE006,Electrical,3/ v sem,9351616143,deepaksharma305811@gmail.com,T2610141724255683869715,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 17:29:17,Muskan Sharma,Ecb/07/2025/31,Civil engineering,2nd year/ 3 rd sem,9877964335,muskansharma1116733@gmail.com,665302588077,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 17:29:55,Mayank agrawal,Ecb/2026/04/19,Information technology,1 year,6375082804,mayankagrawal2009209@gmail.com,T2610131506034328967077,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 17:33:38,Praveen hartwal,ECB/07/2025/37,Civil,3sem,9828375097,praveenhartwal@gmail.com,202767821538,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 17:44:26,Sandeep,ECB/2025/04/22,Information technology,Second year third semester,7568399261,ruyalsandeep.45@gmail.com,316881446452,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 17:45:01,NITIN MEENA,Ecb/2026/07/49,Civil,1st,8690927168,nitinsehara07@gmail.com,T2610141741504617971890,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 17:45:16,Bhanu pratap singh,,Mechanical,1st,8005879055,beesingh4056@gmail.com,8005879055@nyes,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 17:49:48,Taman Sharma,ECB/2025/05/22,Mechanical,2nd year / 3rd sem,9983342280,tamansharma184@gmail.com,T2610141741587105411374,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 17:52:34,Yogesh saini,ECB/2026/04/33,IT,1st,6377591707,yogeshsaini591707@gmail.com,665343552002,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 17:54:49,Vanshika Kiroriwal,ECB/2025/01/065,Cse,2nd year 3 semester,9057584473,vanshikakiroriwal@gmail.com,T2610141751557011132679,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 18:16:15,Gourav Kumar Ranga,,Computer science,4th year,8094120447,gunugourav1@gmail.com,T2610141814377427827445,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 18:20:14,Dheeraj Leelawat,ECB/2026/07/19,Civil engineering,1st/1st,7023306616,dheeraj101mcsquare@gmail.com,628792782762,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 18:21:42,Kanchan,ECB/2025/1/47,CSE,2nd year / 3rd sem,8619569521,runlakanchan@gmail.com,T2610141819371076761833,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 18:22:04,Sidharth Tanwar,,CSE,5th Sem,9166160191,stanwar.acc@gmail.com,628789670346,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 18:25:44,Ashish Swami,ECB/2025/1/13,CSE,2nd year / 3rd sem,8619569521,ashiishswami@gmail.com,T2610141824110520738685,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 18:26:45,Manjeet Singh Shekhawat,,AI&DS,5th,7014598783,shekhawatmanjeet191@gmail.com,628786697535,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 18:31:37,Namo Narayan,ECB/2025/10/50,Artificial Intelligence and Data Science,2nd year/3rd sem,8504098337,namo1242006@gmail.com,T2610141824308638788278,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 18:32:31,GAUTAM KASWAN,ECB/2024/01/29,COMPUTER SCIENCE ENGINEERING,3rd/5th sem,9352044816,gautamkaswan007@gmail.com,T2610141829395899237356,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 18:35:35,Parth Bithu,,CSE,5th,9799272868,parthbithu@gmail.com,628797977116,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 18:40:00,Lalit Kumar,,CSE,2 year /3rd sem,8502914644,Lalit4644choudhary@gmail.com,T2610141836359571984203,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 18:41:27,Ranvijay singh chouhan,ECB/2026/01/91,CSE,1year 1sem,8619169075,Ronniesingh941@gmail.com,T2610141834281010501755,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 18:46:32,Yogesh singh,ECB/2025/01/125,CSE,3rd sem,9983051618,yogeshsinghchouhan07@gmail.com,665333422248,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 18:47:30,Chanchal pareek,ECB/2026/01/27,Cse,1st,7876276288,Chanchalpareek5444@gmail.com,T2610141843321127757014,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 18:51:58,Pinki rawat,ECB/2026/01/77,CSE,First year and first sem,88224660797,Pinkisciencestudent@gmail.com,628713877454,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 18:53:56,Saloni,2026/01/60,Cse,1st,9413767846,saloni50747@gmail.com,665344323538,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 19:01:20,Gourav Nagar,,Cse,1st,7073019022,gouravnagar8022@gmail.com,T2610141857452612218898,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 19:07:24,Avinash aseri,ECB/2025/1/14,CSE,2nd year/ 3 semester,9413769007,aseriavinash9@gmail.com,T2610141900027008262828,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 19:25:08,Nikita saran,ECB/2026/01/72,Cse,1st,6375125843,nikitasaran007@gmail.com,T2610141922414836986037,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 19:32:24,Sunny sankhla,ECB/2026/10/84,AIDS,Ist year,8000642361,sunnysankhla7878@gmail.com,T2610141928564937575434,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 19:33:38,Rajnish Prasad Yadav,,AIDS,1st,9934326225,yadavrajnishprasad989@gmail.com,T2610141931532278305140,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 19:36:01,Anshika Choudhary,,CSE,1st year /1 sem,9636556748,anshuu.9636@gmail.com,T2610141933401790872048,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 19:37:39,Uma choudhary,,Civil,3rd year,9928525088,umachoudhary16082006@gmail.com,T2610141922339880583423,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 19:41:21,Yogesh Choudhary,,AI&DS,1year,8209965055,princejat371@gmail.com,T2610141938402082333071,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 20:00:30,Kirtika Sharma,,AI&DS,4th/7th,9509532226,kritisharma200205@gmail.com,8112299241@nyes,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 20:08:21,Niharika Gautam,ECB/2026/01/68,CSE,First/First,6377402688,gautamniharika498@gmail.com,T2610142004456350405662,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 20:09:33,Abhinav singh,ECB/2026/01/05,CSE,1st/1st,9548879236,singh.abhinav2655@gmail.com,T2610142007561892876120,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 20:15:40,Roshan Sharma,ECB/2024/10/59,Ai&ds,3rd year/ 5th sem,7357727855,roshansharma4103@gmail.com,T2610142011186121491652,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 20:16:31,Vivek Tanwar,24/ECB/BCA/59,Bca,3rd,9588810867,vivektanwar020@gmail.com,8112299241@nyes,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 20:16:51,Raghav Kalla,24/ECB/BCA/45,Bca,5th sem,9358697004,kalla.raghav10@gmail.com,kalla.raghav10@okicici,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 20:27:56,Himanshu Saini,,CSE,2nd year,8432427451,himanshusaini0888@gmail.com,T2610142023207348483883,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 20:31:02,Yogeeta,ECB/2026/01/125,CSE,First/First,9509227288,Yogitasinghal58@gmail.com,T2610142028267107757039,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 20:36:12,Aaditya Soni,ECB/2026/10/08,AI&DS,1st semester,6378544424,sshivnarayansoni@gmail.com,T2610142032195780741739,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 20:48:20,Rohit kachhawa,ECB/2026/07/66,Civil engineering,2026-27,9116973627,rohitkachhawa983@gmail.com,T2610142043227209289895,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 20:54:00,Prinsi Choudhary,ECB/2025/1/78,CSE,2 year,9057237271,sntprinsis@gmail.com,9057237271@ybl,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 21:02:34,Lucky kumawat,ECB/2026/07/54,CSE,1st year,6375881860,luckykmwt144@gmail.com,T2610142100257095044987,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 21:03:54,Ritvik,,AIDS,1year,8290919704,ritviksoni0208@gmail.com,T2610142100415791132382,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 21:04:28,Faizal Hasan Bhati,Ecb/2024/03/07,Electrical,3rd year 5th sem,6377180670,bhatifaizalhasan@gmail.com,T2610142102447117947259,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 21:05:59,Shubham Kumawat,,Computer Science And Engineering,7th Sem,7690037295,srkumawat295@gmail.com,T2610142102538688822980,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 21:08:48,Riyanshi Soni,ECB/2023/02/10,ECE,4th,8905896679,riyanshisoni822@gmail.com,T2610142106355954189786,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 21:14:25,Nitesh Prajapat,,Information Technology,7th Sem,6367150632,Niteshprajapat598@gmail.com,T2610142113417763257573,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 21:15:13,Yashwant Verma,Ecb/2024/03/15,EE,3rd year 5th sem,9462321832,vyashwant731@gmail.com,665335659515,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 21:16:10,Gaurav Sharma,ECB/2023/04/09,IT,4th,8875684163,sharmaagaurav5@gmail.com,T2610142115158769166004,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 21:18:04,Harsh Prajapat,,Information Technology,7th Sem,9950782559,harshprajapat421377@gmail.com,T2610142117068587459662,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 21:19:09,Gourav jangid,,CSE,1at,9664139149,gourav21507@gmail.com,T2610142114185252354917,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 21:20:41,Aadesh Sharma,,Artificial Intelligence and Data Science,1,8657452093,aadeshsharma483@gmail.com,665346098282,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 21:20:46,Karan Suthar,,Computer Science And Engineering,5th sem,7976113495,timmysuthar@gmail.com,T2610142119268561808115,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 21:23:58,Tarun choudhary,ECB/2026/10/87,AI&DS,1,9057866424,tarunchoudhary6424@gmail.com,01a13b19-d54f-70a3-acce-82c8ae218ab7,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 21:25:04,Ashish Saini,ECB/2025/10/14,AI&DS,2 Year/ 3 Semester,9351602497,ashishkolotya4517@gmail.com,005876583125,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 21:25:30,Shyam Choudhary,ECB/2026/01/101,CSE 2,1,8112239406,choudharyshyam6375@gmail.com,T2610142120553024105943,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 21:26:42,Tushar Pal,ECB/2025/1/108,Computer science engineering,2nd/3rd,7375995521,tushar1001pal@gmail.com,628794677037,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 21:39:31,Gyanpal,,AI&DS,3rd,9119271355,gyanpaljandu111@gmail.com,005877027939,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 21:41:02,Rinku ved,ECB/2023/01/88,Computer science and engineering,4th/7th,9358390135,Vedrinku743@gmail.com,T2610142132131504906556,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 21:43:29,Gourav Sharma,ECB/2025/1/31,Cse,2nd/3rd,9610267609,sharmalucky511882@gmail.com,T2610142141002436662631,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 21:44:38,Jai Kishan Joshi,ECB/2026/01/40,Cse-A,1st year,9116612131,jaikishanjoshi51@gmail.com,616058539113,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 21:49:03,Dileep choudhary,ECB/ 2024/ 07/09,Civil,3 year / 5 sem,8306601478,dileepdherudj@gmail.com,628704076621,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 21:56:51,Ravindra Godara,ECB/2024/07/31,Civil,3rd year/5 sem,8302174088,ravindragodara523@gmail.com,316907482139,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 22:02:58,Dev anand modi,ECB/2023/04/08,Information technology,4th / 7th semester,8003753540,devaanandmodi@gmail.com,665336192051,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 22:08:21,Shavali Sharma,ECB/2025/01/132,CSE,3rd,6006966895,shavalisharmasharma@gmail.com,T2610142139484948198808,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 22:18:24,Manish Dudi,ECB/2026/01/55,CSE,First,8690228818,manishdudi5835@gmail.com,K811T179199634652a348cad8244f4e83df,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 22:18:38,Kajal,ECB/2026/01/42,Cse,2026/1st,6375595294,mogrichoudhary2007@gmail.com,665389604379,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 22:18:57,Kanchan poonia,ECB/2024/07,Civil,3year/5th sem,8619579307,rohitashpuniya8@gmail.com,T2610142216060084906210,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 22:21:52,Ritik sharma,ECB/2023/10/37,AIDS,7,7014341009,sharmaritik5588@gmail.com,005877893953,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 22:23:50,Bharat,ECB/2023/07/08,Civil engineering,4th year,7665265169,bharunagaur21@gmail.com,T2610142036437790189660,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 22:24:42,Niku,ECB/2026/01/73,CSE,1st,9983552164,nikusn2526@gmail.com,T2610142221183533101443,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 22:25:02,Bharat kumar,ECB/2026/07/15,Civil,1st,9001733475,bharatchoudhary0502@gmail.com,T2610142223339877922452,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 22:27:32,Bharat,ECB/2023/07/08,Civil engineering,4th year,9057765169,jat697361@gmail.com,T2610142036437790189660,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 22:29:55,Daksh Joshi,ECB/2026/04/5,Information Technology,First Year,9256889579,dakshjoshi2301@gmail.com,316909196143,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 22:31:41,Nandini surolia,24EEBCS069,Cse,3rd 5th,9587381639,surolianandini@gmail.com,062845060097,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 22:31:50,Mohit Rar,Ecb/2025/10/47,AI&DS,2nd/ 3rd,9653795047,mohitrar009@gmail.com,T2610142230424284611165,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 22:33:07,Priya,ECB/2025/10/65,AI&DS,2nd year/ 3rd sem,7073680475,jaatpriya225@gmail.com,T2610142231249094473723,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 22:35:01,Vivek Sharma,,CSE,1st,6378159457,viveks0327@gmail.com,6378159457@ptyes,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 22:37:13,Vandana Rathore,24EEBCS076,Cse,3rd 5th,9772589713,vanarathore6@gmail.com,041951176569,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 22:39:12,Laxmi narayan Gahlot,ECB/2025/03/15,Electrical,3rd,8209772656,krishan209e@gmail.com,005878448276,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 22:40:55,Muna RAM,25EEBEE019,Electrical Engineering,3,8003652232,munaramchoudhary134@gmail.com,T2610142234164842270825,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 22:42:38,Himanshu kanwar,24EEBCS060,CSE,3rd 5th,7296892043,hkanwar268@gmail.com,612953988111,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 22:42:43,Ajay,,Cse,3rd,9257618779,ajaydhawai724@gmail.com,628784987240,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 22:43:23,Kushagra Dutt Dave,ECB/2025/07/23,Civil,2nd,9664268234,knowledgeable.kush16@gmail.com,131299900144,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 22:43:37,Shourya Sharma,,CSE,1st Year,7427076454,sharmashourya995@gmail.com,7427076454@axl,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 22:49:46,Sakshita,24EEBCS096,CSE,3rd 5th,9352905246,Kundansaini9352@gmail.com,643935102147,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 22:53:05,harshit gaur,ecb/2025/04/9,INFORMATION technology,2nd/3sem,9461200900,kirangaur83@gmail.com,T2610142239174461223181,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 22:58:29,Vikram,,EE,2/3,9350929010,bishnoivikram360@gmail.com,628785013597,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 22:59:29,Devanshu Sharma,ECB/2025/01/26,CSE,2Year / 3rd sem,6377762465,devanshusharma0311@gmail.com,321886888411,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 23:00:53,Tushar Rajpurohit,ECB/2024/10/71,AI & DS,3rd yr/5th sem,6376969763,tusharrazzpurohit@gmail.com,665370400730,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 23:01:07,RUDRAPRATAP SINGH RATHORE,,CIVIL ENGINEERING,3rd/5th,8946934119,rudrarathore0811@gmail.com,628744060323,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 23:02:04,Nehang Choudhary,,Computer science engineering,2year / 3sem,7021972307,Nehangchoudhary@gmail.com,T2610142250046461414838,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 23:03:31,Mohit,ECB/2026/04/20,IT,1year/ 1st semester,9116577274,dudimohit01@gmail.com,01a13b78-31d8-7462-a759-6e28d103818d,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 23:05:19,Rudraksh Ratawa,25CEBBC042,B C A,3rd year,7665566005,rudrakshratawaa@gmail.com,T2610142303557940209174,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 23:05:26,Premsukh Mund,ECB/2026/01/84,Computer science and engineering,1st,9772556649,premsukh17052008@gmail.com,665346831344,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 23:05:30,Dixit,ECB/2024/10/21,AI&DS,3 /5,7665312595,dixitdeshwal0011@gmail.com,T2610142303378232927392,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 23:05:41,Himank Choudhary,ECB/2024/10/30,AIDS,3rd/5th,6377470942,hiimmankchoudhary@gmail.com,T2610142302361271674432,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 23:06:25,Abhishek kaswan,ECB/2024/10/02,AI & DS,3rd year / 5th sem,7597939570,abhishekkaswa2007@gmail.com,628792488987,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 23:50:33,Rajvendra singh,,Computer science,8th,8824922348,Zerotwoninezero0290@gmail.com,T2610142349266480068249,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
-14/10/2026 23:57:54,Aditya Singh,,CSE,3rd/5th sem,8094088619,raoadityasingh24032006@gmail.com,8094088619@ptyes,UNVERIFIED,Awaiting bank statement or unconfirmed transaction ID
+timestamp,name,scholar_no,branch,year_sem,contact_no,email,submitted_transaction_id,verification_status,bank_source,bank_sender_name,matched_bank_txn,matched_bank_utr,verified_amount,verification_method
+12/10/2026 22:10:55,Sitaram nayak,4,CSE -2,1st,9157211084,sitaram20127@gmail.com,9157211084,UNVERIFIED,,,,,,Awaiting final bank statement
+13/10/2026 12:05:05,Nirma,ecb/2026/03/33,Electrical engineering,1,9928297998,cnirmachoudhary01@gmail.com,3167,UNVERIFIED,,,,,,Awaiting final bank statement
+13/10/2026 16:17:47,Shiv,ECB/2025/01/98,Cse,2nd year/3rd sem,7340588163,shekhawatshivu007@gmail.com,T2610131606257802999683,UNVERIFIED,,,,,,Awaiting final bank statement
+13/10/2026 16:37:55,Deepti nehra,ECB/2026/02/5,ECE,1st,7878196566,deeptichoudhary973@gmail.com,7878196566@ybl,UNVERIFIED,,,,,,Awaiting final bank statement
+13/10/2026 16:48:45,Kavish Rajpurohit,24/ECB/BCA/29,BCA,5 semester,7297036095,kavishrajpurohit11@gmail.com,CICIAgPjWiKXlbQ,UNVERIFIED,,,,,,Awaiting final bank statement
+13/10/2026 18:34:16,Naveen Beniwal,25EEBCS066,CSE,2nd yr/3rd sem,9256170929,naveenbeniwal0929@gmail.com,T2610131833020690391885,UNVERIFIED,,,,,,Awaiting final bank statement
+13/10/2026 18:49:27,Ajay saini,D2,ECE,1st year,7568525128,govindsingh314228@gmail.com,Ajay saini,UNVERIFIED,,,,,,Awaiting final bank statement
+13/10/2026 19:23:35,Bhawna Saini,ECB/2025/D/07/44,Civil,3rd year,9057489915,bhawnasaini9915@gmail.com,9057489915@pthdfc,UNVERIFIED,,,,,,Awaiting final bank statement
+13/10/2026 20:17:27,yuvraj singh sisodia,ECB/2026/02/48,electronics and communication,1,7737054743,yuvrajsinghsisodia2007@gmail.com,T2610132001496050601239,UNVERIFIED,,,,,,Awaiting final bank statement
+13/10/2026 20:19:21,Karan kumawat,ECB/2025/05/8,Mechanical,2/3,9983709252,Karan.kumawat9983@gamil.com,T2610132018048206553047,UNVERIFIED,,,,,,Awaiting final bank statement
+13/10/2026 20:23:25,Sagar parihar,ECB/2025/10/76,Aids,2/3,8764944497,prajapatsagar551@gmail.com,T2610132021305521059722,UNVERIFIED,,,,,,Awaiting final bank statement
+13/10/2026 20:27:50,Yash nimbawat,ECB/2025/07/53,Civil,2/3,9672408575,Yashnimbawat5@gmail.com,T2610132026211849571910,UNVERIFIED,,,,,,Awaiting final bank statement
+13/10/2026 21:34:17,Madhya Rani,,Electrical,1 semester,7665012888,madhyarani@gmail.com,T2610132126189725218355,UNVERIFIED,,,,,,Awaiting final bank statement
+13/10/2026 21:38:39,Laxita,,Civil,1st,9588093018,laxitayadav74@gmail.com,T2610132127289236894800,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 12:07:57,Divesh jangid,ECB/2026/02/7,ECE,1st/1st,8169008787,divesh6969@gmail.com,0149fe92-b87a-4fe7-94b6-f2dd0518b34a,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 14:38:46,Prinkit Gahlot,ECB/2025/02/29,ECE,2nd,8502992177,prinkitgahlot@gmail.com,T2610141435239217517391,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 14:43:29,Manan Mahatma,ECB/2025/02/20,ECE,2nd,9269906934,mananmahatma@gmail.com,T2610141441048108730702,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 15:03:18,Nikhil sankhla,26/ECB/BCA/43,BCA,1st year/1st sem,7849992163,nikhilsankhla311@gmail.com,NEF7e3d1605793b4182955ed561b7bab8f9,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 15:14:02,sourav Dungarjaal,ECB/2026/07/75,Civil engineering,1 years,8949509790,souravdugarjaal900@gmail.com,T2610141508239796730932,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 15:23:07,Ronik Agarwal,ECB/2026/01/95,C.S.E,1st / 1st,8290999890,ronik.ag29@gmail.com,665342119405,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 15:41:45,krishan,ECB/2025/03/11,electrical,3rd,8302126934,krishan209e@gmail.com,005862215915,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 16:17:38,Aman Bhati,,Cse,1st year,8955675571,Aman7bhati@gmail.com,OMK27ca327696361ee,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 16:22:54,Khushi swami,,Computer science,"3rd year, 5th sem",9929996849,khushiswami005@gmail.com,628763251116,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 16:23:36,Shiv kumawat,,ECE,3rd year,9257676061,shivkumawat8209@gmail.com,616029987377,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 17:05:12,Ajay Singh Shekhawat,ECB/2024/01/06,CSE,3 year/ 5 semester,7877283490,shekhawatajaysingh675@gmail.com,628701151900,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 17:14:39,Kanishka Atal,,Computer science,3 year/5th,7339904507,kanishkaatal2006@gmail.com,118443634741,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 17:15:45,Kirti Kanwar rathore,25/ECB/BCA/19,Bca,semester,6375881224,Gunudirathore@gmail.com,bhanvigupta07@okicici,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 17:20:47,Sagar bishnoi,ECB/2026/02/34,ECE,1st year,9053780820,sagarbis9e@gmail.com,MOB27ca37b42ce0fba,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 17:22:57,Pragya,25/ECB/BCA/30,BCA,3rd semester,6388563930,pragyamaurya235@gmail.com,maurya-pragya@ptyes,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 17:26:34,Deepak Sharma,24EEBEE006,Electrical,3/ v sem,9351616143,deepaksharma305811@gmail.com,T2610141724255683869715,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 17:29:17,Muskan Sharma,Ecb/07/2025/31,Civil engineering,2nd year/ 3 rd sem,9877964335,muskansharma1116733@gmail.com,665302588077,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 17:29:55,Mayank agrawal,Ecb/2026/04/19,Information technology,1 year,6375082804,mayankagrawal2009209@gmail.com,T2610131506034328967077,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 17:33:38,Praveen hartwal,ECB/07/2025/37,Civil,3sem,9828375097,praveenhartwal@gmail.com,202767821538,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 17:44:26,Sandeep,ECB/2025/04/22,Information technology,Second year third semester,7568399261,ruyalsandeep.45@gmail.com,316881446452,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 17:45:01,NITIN MEENA,Ecb/2026/07/49,Civil,1st,8690927168,nitinsehara07@gmail.com,T2610141741504617971890,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 17:45:16,Bhanu pratap singh,,Mechanical,1st,8005879055,beesingh4056@gmail.com,8005879055@nyes,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 17:49:48,Taman Sharma,ECB/2025/05/22,Mechanical,2nd year / 3rd sem,9983342280,tamansharma184@gmail.com,T2610141741587105411374,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 17:52:34,Yogesh saini,ECB/2026/04/33,IT,1st,6377591707,yogeshsaini591707@gmail.com,665343552002,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 17:54:49,Vanshika Kiroriwal,ECB/2025/01/065,Cse,2nd year 3 semester,9057584473,vanshikakiroriwal@gmail.com,T2610141751557011132679,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 18:16:15,Gourav Kumar Ranga,,Computer science,4th year,8094120447,gunugourav1@gmail.com,T2610141814377427827445,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 18:20:14,Dheeraj Leelawat,ECB/2026/07/19,Civil engineering,1st/1st,7023306616,dheeraj101mcsquare@gmail.com,628792782762,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 18:21:42,Kanchan,ECB/2025/1/47,CSE,2nd year / 3rd sem,8619569521,runlakanchan@gmail.com,T2610141819371076761833,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 18:22:04,Sidharth Tanwar,,CSE,5th Sem,9166160191,stanwar.acc@gmail.com,628789670346,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 18:25:44,Ashish Swami,ECB/2025/1/13,CSE,2nd year / 3rd sem,8619569521,ashiishswami@gmail.com,T2610141824110520738685,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 18:26:45,Manjeet Singh Shekhawat,,AI&DS,5th,7014598783,shekhawatmanjeet191@gmail.com,628786697535,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 18:31:37,Namo Narayan,ECB/2025/10/50,Artificial Intelligence and Data Science,2nd year/3rd sem,8504098337,namo1242006@gmail.com,T2610141824308638788278,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 18:32:31,GAUTAM KASWAN,ECB/2024/01/29,COMPUTER SCIENCE ENGINEERING,3rd/5th sem,9352044816,gautamkaswan007@gmail.com,T2610141829395899237356,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 18:35:35,Parth Bithu,,CSE,5th,9799272868,parthbithu@gmail.com,628797977116,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 18:40:00,Lalit Kumar,,CSE,2 year /3rd sem,8502914644,Lalit4644choudhary@gmail.com,T2610141836359571984203,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 18:41:27,Ranvijay singh chouhan,ECB/2026/01/91,CSE,1year 1sem,8619169075,Ronniesingh941@gmail.com,T2610141834281010501755,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 18:47:30,Chanchal pareek,ECB/2026/01/27,Cse,1st,7876276288,Chanchalpareek5444@gmail.com,T2610141843321127757014,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 18:51:58,Pinki rawat,ECB/2026/01/77,CSE,First year and first sem,88224660797,Pinkisciencestudent@gmail.com,628713877454,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 18:53:56,Saloni,2026/01/60,Cse,1st,9413767846,saloni50747@gmail.com,665344323538,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 19:01:20,Gourav Nagar,,Cse,1st,7073019022,gouravnagar8022@gmail.com,T2610141857452612218898,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 19:07:24,Avinash aseri,ECB/2025/1/14,CSE,2nd year/ 3 semester,9413769007,aseriavinash9@gmail.com,T2610141900027008262828,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 19:33:38,Rajnish Prasad Yadav,,AIDS,1st,9934326225,yadavrajnishprasad989@gmail.com,T2610141931532278305140,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 20:08:21,Niharika Gautam,ECB/2026/01/68,CSE,First/First,6377402688,gautamniharika498@gmail.com,T2610142004456350405662,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 20:16:31,Vivek Tanwar,24/ECB/BCA/59,Bca,3rd,9588810867,vivektanwar020@gmail.com,8112299241@nyes,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 20:16:51,Raghav Kalla,24/ECB/BCA/45,Bca,5th sem,9358697004,kalla.raghav10@gmail.com,kalla.raghav10@okicici,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 20:36:12,Aaditya Soni,ECB/2026/10/08,AI&DS,1st semester,6378544424,sshivnarayansoni@gmail.com,T2610142032195780741739,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 21:03:54,Ritvik,,AIDS,1year,8290919704,ritviksoni0208@gmail.com,T2610142100415791132382,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 21:14:25,Nitesh Prajapat,,Information Technology,7th Sem,6367150632,Niteshprajapat598@gmail.com,T2610142113417763257573,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 21:15:13,Yashwant Verma,Ecb/2024/03/15,EE,3rd year 5th sem,9462321832,vyashwant731@gmail.com,665335659515,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 21:16:10,Gaurav Sharma,ECB/2023/04/09,IT,4th,8875684163,sharmaagaurav5@gmail.com,T2610142115158769166004,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 21:18:04,Harsh Prajapat,,Information Technology,7th Sem,9950782559,harshprajapat421377@gmail.com,T2610142117068587459662,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 21:19:09,Gourav jangid,,CSE,1at,9664139149,gourav21507@gmail.com,T2610142114185252354917,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 21:20:41,Aadesh Sharma,,Artificial Intelligence and Data Science,1,8657452093,aadeshsharma483@gmail.com,665346098282,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 21:20:46,Karan Suthar,,Computer Science And Engineering,5th sem,7976113495,timmysuthar@gmail.com,T2610142119268561808115,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 21:23:58,Tarun choudhary,ECB/2026/10/87,AI&DS,1,9057866424,tarunchoudhary6424@gmail.com,01a13b19-d54f-70a3-acce-82c8ae218ab7,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 21:25:04,Ashish Saini,ECB/2025/10/14,AI&DS,2 Year/ 3 Semester,9351602497,ashishkolotya4517@gmail.com,005876583125,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 21:25:30,Shyam Choudhary,ECB/2026/01/101,CSE 2,1,8112239406,choudharyshyam6375@gmail.com,T2610142120553024105943,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 21:26:42,Tushar Pal,ECB/2025/1/108,Computer science engineering,2nd/3rd,7375995521,tushar1001pal@gmail.com,628794677037,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 21:39:31,Gyanpal,,AI&DS,3rd,9119271355,gyanpaljandu111@gmail.com,005877027939,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 21:43:29,Gourav Sharma,ECB/2025/1/31,Cse,2nd/3rd,9610267609,sharmalucky511882@gmail.com,T2610142141002436662631,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 21:44:38,Jai Kishan Joshi,ECB/2026/01/40,Cse-A,1st year,9116612131,jaikishanjoshi51@gmail.com,616058539113,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 21:49:03,Dileep choudhary,ECB/ 2024/ 07/09,Civil,3 year / 5 sem,8306601478,dileepdherudj@gmail.com,628704076621,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 21:56:51,Ravindra Godara,ECB/2024/07/31,Civil,3rd year/5 sem,8302174088,ravindragodara523@gmail.com,316907482139,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 22:02:58,Dev anand modi,ECB/2023/04/08,Information technology,4th / 7th semester,8003753540,devaanandmodi@gmail.com,665336192051,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 22:08:21,Shavali Sharma,ECB/2025/01/132,CSE,3rd,6006966895,shavalisharmasharma@gmail.com,T2610142139484948198808,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 22:18:24,Manish Dudi,ECB/2026/01/55,CSE,First,8690228818,manishdudi5835@gmail.com,K811T179199634652a348cad8244f4e83df,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 22:18:38,Kajal,ECB/2026/01/42,Cse,2026/1st,6375595294,mogrichoudhary2007@gmail.com,665389604379,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 22:18:57,Kanchan poonia,ECB/2024/07,Civil,3year/5th sem,8619579307,rohitashpuniya8@gmail.com,T2610142216060084906210,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 22:21:52,Ritik sharma,ECB/2023/10/37,AIDS,7,7014341009,sharmaritik5588@gmail.com,005877893953,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 22:23:50,Bharat,ECB/2023/07/08,Civil engineering,4th year,7665265169,bharunagaur21@gmail.com,T2610142036437790189660,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 22:24:42,Niku,ECB/2026/01/73,CSE,1st,9983552164,nikusn2526@gmail.com,T2610142221183533101443,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 22:25:02,Bharat kumar,ECB/2026/07/15,Civil,1st,9001733475,bharatchoudhary0502@gmail.com,T2610142223339877922452,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 22:27:32,Bharat,ECB/2023/07/08,Civil engineering,4th year,9057765169,jat697361@gmail.com,T2610142036437790189660,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 22:29:55,Daksh Joshi,ECB/2026/04/5,Information Technology,First Year,9256889579,dakshjoshi2301@gmail.com,316909196143,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 22:31:41,Nandini surolia,24EEBCS069,Cse,3rd 5th,9587381639,surolianandini@gmail.com,062845060097,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 22:31:50,Mohit Rar,Ecb/2025/10/47,AI&DS,2nd/ 3rd,9653795047,mohitrar009@gmail.com,T2610142230424284611165,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 22:33:07,Priya,ECB/2025/10/65,AI&DS,2nd year/ 3rd sem,7073680475,jaatpriya225@gmail.com,T2610142231249094473723,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 22:35:01,Vivek Sharma,,CSE,1st,6378159457,viveks0327@gmail.com,6378159457@ptyes,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 22:37:13,Vandana Rathore,24EEBCS076,Cse,3rd 5th,9772589713,vanarathore6@gmail.com,041951176569,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 22:39:12,Laxmi narayan Gahlot,ECB/2025/03/15,Electrical,3rd,8209772656,krishan209e@gmail.com,005878448276,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 22:40:55,Muna RAM,25EEBEE019,Electrical Engineering,3,8003652232,munaramchoudhary134@gmail.com,T2610142234164842270825,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 22:42:38,Himanshu kanwar,24EEBCS060,CSE,3rd 5th,7296892043,hkanwar268@gmail.com,612953988111,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 22:42:43,Ajay,,Cse,3rd,9257618779,ajaydhawai724@gmail.com,628784987240,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 22:43:23,Kushagra Dutt Dave,ECB/2025/07/23,Civil,2nd,9664268234,knowledgeable.kush16@gmail.com,131299900144,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 22:43:37,Shourya Sharma,,CSE,1st Year,7427076454,sharmashourya995@gmail.com,7427076454@axl,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 22:49:46,Sakshita,24EEBCS096,CSE,3rd 5th,9352905246,Kundansaini9352@gmail.com,643935102147,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 22:53:05,harshit gaur,ecb/2025/04/9,INFORMATION technology,2nd/3sem,9461200900,kirangaur83@gmail.com,T2610142239174461223181,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 22:59:29,Devanshu Sharma,ECB/2025/01/26,CSE,2Year / 3rd sem,6377762465,devanshusharma0311@gmail.com,321886888411,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 23:00:53,Tushar Rajpurohit,ECB/2024/10/71,AI & DS,3rd yr/5th sem,6376969763,tusharrazzpurohit@gmail.com,665370400730,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 23:01:07,RUDRAPRATAP SINGH RATHORE,,CIVIL ENGINEERING,3rd/5th,8946934119,rudrarathore0811@gmail.com,628744060323,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 23:02:04,Nehang Choudhary,,Computer science engineering,2year / 3sem,7021972307,Nehangchoudhary@gmail.com,T2610142250046461414838,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 23:05:19,Rudraksh Ratawa,25CEBBC042,B C A,3rd year,7665566005,rudrakshratawaa@gmail.com,T2610142303557940209174,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 23:05:26,Premsukh Mund,ECB/2026/01/84,Computer science and engineering,1st,9772556649,premsukh17052008@gmail.com,665346831344,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 23:05:30,Dixit,ECB/2024/10/21,AI&DS,3 /5,7665312595,dixitdeshwal0011@gmail.com,T2610142303378232927392,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 23:05:41,Himank Choudhary,ECB/2024/10/30,AIDS,3rd/5th,6377470942,hiimmankchoudhary@gmail.com,T2610142302361271674432,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 23:06:25,Abhishek kaswan,ECB/2024/10/02,AI & DS,3rd year / 5th sem,7597939570,abhishekkaswa2007@gmail.com,628792488987,UNVERIFIED,,,,,,Awaiting final bank statement
+14/10/2026 23:50:33,Rajvendra singh,,Computer science,8th,8824922348,Zerotwoninezero0290@gmail.com,T2610142349266480068249,UNVERIFIED,,,,,,Awaiting final bank statement
