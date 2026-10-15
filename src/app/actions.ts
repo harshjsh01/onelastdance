@@ -148,7 +148,39 @@ export async function verifyTicketGate(ticketId: string) {
     };
   }
 
-  // 2. Check Supabase table if configured
+  // 2. Check Firebase Firestore (Real-time Cloud Sync)
+  try {
+    const { doc, getDoc, setDoc } = await import('firebase/firestore');
+    const { db } = await import('@/lib/firebase');
+
+    const docRef = doc(db, 'students', cleanId);
+    const snap = await getDoc(docRef);
+
+    if (snap.exists()) {
+      const data = snap.data();
+      if (data.status === 'checked_in') {
+        const checkedTime = data.checked_in_at || existing?.checked_in_at || 'Earlier';
+        checkInStore.set(student.ticket_id, {
+          status: 'checked_in',
+          checked_in_at: checkedTime,
+        });
+
+        return {
+          status: 'duplicate' as const,
+          message: `Already Checked-In at ${checkedTime}. This pass is valid for one-time entry only.`,
+          name: data.name || student.name,
+          scholarNo: data.scholar_no || student.scholar_no,
+          branch: data.branch || student.branch,
+          ticketId: cleanId,
+          time: checkedTime,
+        };
+      }
+    }
+  } catch (fbErr) {
+    // Firebase optional fallback
+  }
+
+  // 3. Check Supabase table if configured
   if (process.env.NEXT_PUBLIC_SUPABASE_URL && process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY) {
     try {
       const { data: supaData } = await supabase
@@ -192,6 +224,25 @@ export async function verifyTicketGate(ticketId: string) {
     checked_in_at: now,
   });
 
+  // Sync to Firebase Firestore
+  try {
+    const { doc, setDoc } = await import('firebase/firestore');
+    const { db } = await import('@/lib/firebase');
+
+    await setDoc(
+      doc(db, 'students', cleanId),
+      {
+        ...student,
+        status: 'checked_in',
+        checked_in_at: now,
+        updated_at: new Date().toISOString(),
+      },
+      { merge: true }
+    );
+  } catch (fbWriteErr) {
+    console.warn('Firebase checkin write fallback:', fbWriteErr);
+  }
+
   // Sync to Supabase if configured
   if (process.env.NEXT_PUBLIC_SUPABASE_URL && process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY) {
     try {
@@ -204,7 +255,7 @@ export async function verifyTicketGate(ticketId: string) {
         checked_in_at: now,
       });
     } catch (e) {
-      // Silently fall back to in-memory
+      // Silently fall back
     }
   }
 
@@ -241,4 +292,46 @@ export async function getAdminDashboardData() {
     branchCounts,
     recentCheckIns: Array.from(checkInStore.entries()).slice(-10).reverse(),
   };
+}
+
+// Bulk Upload & Sync all verified registrations to Firebase Firestore
+export async function syncAllToFirebase() {
+  try {
+    const verifiedList = verifiedStudentsData as StudentTicket[];
+    const { writeBatch, doc } = await import('firebase/firestore');
+    const { db } = await import('@/lib/firebase');
+
+    // Firestore batch limit is 500 operations per batch
+    const batch = writeBatch(db);
+    let count = 0;
+
+    for (const student of verifiedList) {
+      const docRef = doc(db, 'students', student.ticket_id);
+      batch.set(
+        docRef,
+        {
+          ...student,
+          status: checkInStore.get(student.ticket_id)?.status || 'valid',
+          checked_in_at: checkInStore.get(student.ticket_id)?.checked_in_at || null,
+          synced_at: new Date().toISOString(),
+        },
+        { merge: true }
+      );
+      count++;
+    }
+
+    await batch.commit();
+
+    return {
+      success: true,
+      count,
+      message: `Successfully migrated and synced ${count} verified registrations to Firebase Firestore!`,
+    };
+  } catch (err: unknown) {
+    console.error('Firebase Bulk Sync Error:', err);
+    return {
+      success: false,
+      error: err instanceof Error ? err.message : String(err),
+    };
+  }
 }

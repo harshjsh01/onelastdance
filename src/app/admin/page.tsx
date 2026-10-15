@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from 'react';
 import verifiedData from '@/data/verified_students.json';
+import { syncAllToFirebase } from '../actions';
 import Link from 'next/link';
 import Image from 'next/image';
 import {
@@ -14,13 +15,35 @@ import {
   Download,
   Filter,
   Sparkles,
-  RefreshCw
+  RefreshCw,
+  Cloud,
+  Loader2,
+  AlertCircle
 } from 'lucide-react';
 
 export default function AdminPage() {
   const [search, setSearch] = useState('');
   const [selectedBranch, setSelectedBranch] = useState('ALL');
   const [checkedInIds, setCheckedInIds] = useState<Set<string>>(new Set());
+  const [syncing, setSyncing] = useState(false);
+  const [syncStatus, setSyncStatus] = useState<{ success: boolean; message: string } | null>(null);
+
+  const handleFirebaseSync = async () => {
+    setSyncing(true);
+    setSyncStatus(null);
+    try {
+      const res = await syncAllToFirebase();
+      if (res.success) {
+        setSyncStatus({ success: true, message: res.message || 'Synced successfully!' });
+      } else {
+        setSyncStatus({ success: false, message: res.error || 'Sync failed.' });
+      }
+    } catch (e: any) {
+      setSyncStatus({ success: false, message: e.message || 'Failed to connect to Firebase.' });
+    } finally {
+      setSyncing(false);
+    }
+  };
 
   // Branch list
   const branches = useMemo(() => {
@@ -135,7 +158,19 @@ export default function AdminPage() {
             </div>
           </div>
 
-          <div className="flex items-center gap-2">
+          <div className="flex flex-wrap items-center gap-2">
+            <button
+              onClick={handleFirebaseSync}
+              disabled={syncing}
+              className="px-3.5 py-2 bg-purple-600 hover:bg-purple-500 disabled:opacity-50 text-white font-bold text-xs rounded-xl flex items-center gap-2 transition-all shadow-md active:scale-95"
+            >
+              {syncing ? (
+                <Loader2 className="w-3.5 h-3.5 animate-spin" />
+              ) : (
+                <Cloud className="w-3.5 h-3.5" />
+              )}
+              <span>{syncing ? 'Syncing to Firebase...' : 'Sync to Firebase'}</span>
+            </button>
             <button
               onClick={exportCSV}
               className="px-4 py-2 bg-amber-500 hover:bg-amber-400 text-black font-bold text-xs rounded-xl flex items-center gap-2 transition-all shadow-md active:scale-95"
@@ -151,6 +186,32 @@ export default function AdminPage() {
             </Link>
           </div>
         </header>
+
+        {/* Sync Notification Banner */}
+        {syncStatus && (
+          <div
+            className={`p-4 rounded-2xl text-xs flex items-center justify-between border ${
+              syncStatus.success
+                ? 'bg-emerald-500/10 border-emerald-500/30 text-emerald-300'
+                : 'bg-red-500/10 border-red-500/30 text-red-300'
+            }`}
+          >
+            <div className="flex items-center gap-2">
+              {syncStatus.success ? (
+                <CheckCircle2 className="w-4 h-4 text-emerald-400 flex-shrink-0" />
+              ) : (
+                <AlertCircle className="w-4 h-4 text-red-400 flex-shrink-0" />
+              )}
+              <span className="font-medium">{syncStatus.message}</span>
+            </div>
+            <button
+              onClick={() => setSyncStatus(null)}
+              className="text-[11px] underline opacity-80 hover:opacity-100"
+            >
+              Dismiss
+            </button>
+          </div>
+        )}
 
         {/* Metric Cards */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
